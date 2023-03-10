@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.img{
+  height: 500px;
+}
+.jumbotron {
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 1.3rem;
+}
+
+.nav_section nav {
+  background-color: #3BC3FF !important;
+}
+
+.nav_section .navbar-dark .navbar-nav .nav-link {
+  color: #000000 !important;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.nav_section .navbar-dark .navbar-nav .nav-link:hover {
+  color: #03058b !important;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.about{
+  border-radius: 15px 0px 0px 18px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+#btn-color{
+  background-color: #CC4E52;
+  border: none;
+}
+
+.body-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-list{
+  margin-left:415px;
+}
+.nav-right{
+  margin-right: 20px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.form-outline {
+  width: 100%;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-signup {
+  background-image: url(./img/backgroudImage.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-signup  h1 {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+}
+
+.section-signup  h1::after {
+  content: '';
+  position: absolute;
+  bottom: -13px;
+  border: 3px solid #000000;
+  width: 200px;
+  left: -4px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+
+.section-signup {
+  margin: 20px 0px !important;
+}
+
+.section-signup button{
+  width: 100%;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .signup_section {
+    width: 100%;
+  }
+
+  .section-signup {
+    margin: 20px 0px !important;
+  }
+
+  .section-signup button{
+    width: 100%;
+  }
+  
+}
+
+
