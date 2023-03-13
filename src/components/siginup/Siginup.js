@@ -30,7 +30,7 @@ const Siginup = () => {
 
   return (
     <div>
-      <div className="container col-md-7 col-sm-12">
+      <div className="container col-md-7 col-sm-12 animate__animated animate__zoomIn">
         <section className="signup_section">
           <div className="card m-5 col-sm-12 m-sm-0 section-signup">
           <h1 className="text-center m-3">Sign Up Form</h1>

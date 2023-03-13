@@ -30,11 +30,11 @@ const Login = () => {
     }
   };
   return (
-    <div>
-      <div className="container col-lg-7">
-        <h1 className="text-center">Login Form</h1>
+    <div className="container col-md-7 col-sm-12 animate__animated animate__zoomIn">
+    <div className="Login_main_section">
         <section className=" text-center text-lg-start">
-          <div className="card mb-3">
+          <div className="card card m-5 col-sm-12 m-sm-0 Login_section">
+          <h1 className="text-center mt-3">Login Form</h1>
             <div className="row g-0 d-flex align-items-center">
               <div className="col-lg-4 d-none d-lg-flex">
                 <img
@@ -122,7 +122,7 @@ const Login = () => {
           </div>
         </section>
         {/* Section: Design Block */}
-      </div>
+    </div>
     </div>
   );
 };

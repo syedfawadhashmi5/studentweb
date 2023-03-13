@@ -11,8 +11,8 @@ const Teacherdata = (props) => {
       <div className="container-fluid">
         <div className="row">
 
-          {products.map((a) => (
-                    <div className="col-lg-4 col-md-12 col-sm-12">
+          {products.map((a,i) => (
+                    <div className="col-lg-4 col-md-12 col-sm-12" key={i}>
 
                 <div className="card  m-auto  w-100" style={{ width: "18rem" }}>
                   {/* <h1>{a.title}</h1> */}

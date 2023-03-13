@@ -54,43 +54,36 @@ const Home = () => {
         </button>
       </div>
       <div className="container mt-4">
-        <div class="jumbotron">
-          <div className="row">
-            <div className="col-md-6">
-              <img
-                className="img img-fluid img-responsive about"
-                src="https://img.freepik.com/free-photo/clever-korean-schoolgirl-has-serious-sullen-look-folds-lips-holds-pencil-notepad-head_273609-34064.jpg?w=740&t=st=1658752514~exp=1658753114~hmac=b6bf11fa09334d373a261bd25f1a2d8bfaff7ac136bffe4746313a42d265fc4d"
-              ></img>
-            </div>
-            <div className="col-md-6 mt-5">
-              <div className="text">
-                <h1 className="mt-4">About us</h1>
-                <p className="ml-4">
-                  On the Insert tab, the galleries include items that are
-                  designed to coordinate with the overall look of your document.
-                  You can use these galleries to insert tables, headers,
-                  footers, lists, cover pages, and other document building
-                  blocks.
-                  <br />
-                  <br />
-                  On the Insert tab, the galleries include items that are
-                  designed to coordinate with the overall look of your document.
-                  You can use these galleries to insert tables, headers,
-                  footers, lists, cover pages, and other document building
-                  blocks. When you create pictures, charts, or diagrams, they
-                  also coordinate with your current document look.
-                </p>
-                <button
-                  type="button"
-                  class="btn btn-secondary btn-lg mt-3"
-                  id="btn-color"
-                >
-                  Large button
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="jumbotron position-relative">
+  <div className="row">
+    <div className="col-md-6">
+      <img
+        className="img img-fluid img-responsive about"
+        src="https://img.freepik.com/free-photo/clever-korean-schoolgirl-has-serious-sullen-look-folds-lips-holds-pencil-notepad-head_273609-34064.jpg?w=740&t=st=1658752514~exp=1658753114~hmac=b6bf11fa09334d373a261bd25f1a2d8bfaff7ac136bffe4746313a42d265fc4d"
+      ></img>
+      <button type="button" className="btn btn-secondary btn-lg position-absolute start-50 top-50 translate-middle" id="video-btn">
+        <i className="bi bi-play-circle"></i>
+      </button>
+    </div>
+    <div className="col-md-6 mt-5">
+      <div className="text">
+        <h1 className="mt-4">About us</h1>
+        <span>
+          <h3>what We offer</h3>
+          We offer a range of services related to freelancing and student consultancy to help individuals and businesses achieve their goals. Our team of experienced professionals provides personalized solutions to meet your specific needs and deliver high-quality results.
+        </span>
+        <span>
+          <h3>what We offer to clients</h3>
+          For freelancers, we offer a variety of services to help you succeed in your businesses.For businesses, we offer a range of consulting services to help you improve your operations and achieve your goals. We can provide guidance on a variety of topics, including business strategy, marketing, and finance. We can also help you find the right freelancers to meet your needs and manage your projects to ensure successful outcomes.
+        </span>
+        <button type="button" className="btn btn-secondary btn-lg mt-3" id="btn-color">
+          Large button
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
       <Teacherdata/>
 

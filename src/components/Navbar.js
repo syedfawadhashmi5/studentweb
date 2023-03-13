@@ -47,7 +47,7 @@ const Navbar = (props) => {
               <li>
                 <button
                   type="button"
-                  class="btn btn-secondary"
+                  className="btn btn-secondary"
                   onClick={() => {
                     auth.signOut();
                     navigate("/signup");
